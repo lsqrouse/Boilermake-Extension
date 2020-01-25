@@ -1,0 +1,64 @@
+  function getReliability(url) {
+		return 95.7;  	
+  }
+  
+  chrome.storage.sync.get('color', function(data) {
+  	//theirs 
+  	let changeColor = document.getElementById('changeColor');
+  	let getInfo = document.getElementById('getInfo');
+    changeColor.style.backgroundColor = data.color;
+    changeColor.setAttribute('value', data.color);
+   //mine 
+  });
+  
+  changeColor.onclick = function(element) {
+    var info = document.getElementById("info");
+	 info.innerHTML = "<p>There is now text here</p>"
+    //theirs
+    let color = element.target.value;
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      chrome.tabs.executeScript(
+          tabs[0].id,
+          {code: 'document.body.style.backgroundColor = "' + color + '";'});
+    });
+    //mine
+    var name = document.getElementById('name');
+  	 name.innerHTML = "Daniel B. Lawson";
+  };
+  
+  getInfo.onclick = function(element) {
+		var info = document.getElementById('info');
+		info.innerHTML = "<p>Your news source is shit</p> <br> <img src=images/shit.png>";
+		chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
+    		var url = tabs[0].url;
+    		var urlDisplay = document.getElementById('urlDisplay');
+    		urlDisplay.innerHTML = url;
+    		var percent = getReliability(url);
+    		/*document.getElementById('percent').innerHTML = "<h2>" + percent + "</h2>
+    			<br>
+    			<p> We are " + percent + " confident that this result is fake. </p>";
+    		document.getElementById('percentage').innerHTML = percent;
+    		document.getElementById('percentage').style.color = "green"; */
+		});
+		document.getElementById('testing').innerHTML = "<p> It works! </p>";
+  };
+
+  
+    
+  changeColor.onclick = function(element) {
+    var info = document.getElementById("info");
+	 info.innerHTML = "<p>There is now text here</p>"
+    //theirs
+    let color = element.target.value;
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      chrome.tabs.executeScript(
+          tabs[0].id,
+          {code: 'document.body.style.backgroundColor = "' + color + '";'});
+    });
+    //mine
+    var name = document.getElementById('name');
+  	 name.innerHTML = "Daniel B. Lawson";
+  };
+  
+  
+          <script src="popup.js"></script> 
