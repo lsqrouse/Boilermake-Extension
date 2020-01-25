@@ -1,0 +1,24 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+table.table1 {
+	background-color:#669ced;
+	margin:0;
+	padding: 0;
+	width:100%;
+}
+
+h1 {
+	font-size:20px;
+	font:Arial;	
+	text-align:left;
+	padding: 15px;
+	width: 189px;
+}
