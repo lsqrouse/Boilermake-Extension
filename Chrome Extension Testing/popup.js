@@ -5,9 +5,13 @@
   chrome.storage.sync.get('color', function(data) {
   	//theirs 
   	let getInfo = document.getElementById('getInfo');
+  	var userPage = document.getElementById('userProfile');
    //mine 
   });
   
+  userPage.onclick = function(element) {
+  	chrome.tabs.create({url: chrome.extension.getURL('index.html')});
+  }
   //getInfo.onclick = function(element) {
 		chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
     		/* Needs to be defined from server */
