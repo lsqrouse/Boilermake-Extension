@@ -12,7 +12,7 @@ table.table1 {
 	background-color:#669ced;
 	margin:0;
 	padding: 20px;
-	width:50%;
+	width:65%;
 	border:0px;
 }
 
@@ -117,4 +117,9 @@ input[type=submit] {
 	margin-top: 10px;
 	padding: 10px;
 	border-radius: 4px;
+}
+
+h2.soon {
+	float:center;
+	text-align:center;
 }
