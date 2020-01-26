@@ -4,12 +4,12 @@ function GenerateTable() {
         //Build an array containing Customer records.
         console.log("here");
         var jsonArray = new Array();
-        jsonArray.push(["Website", "Title", "URL", "Confidence Percentage"])
-        var json1 = '{"website": "BBC", "title": "Dan doing bad things", "url": "www.com", "percent": 95.7}';
+        jsonArray.push(["Website", "Title","Author", "URL", "Rating"])
+        var json1 = '{"website": "BBC", "title": "Dan doing bad things", "author": "Dan", "url": "www.com", "percent": 95.7}';
         var obj = JSON.parse(json1);
-				jsonArray.push([obj.website, obj.title, obj.url, obj.percent]);
-				jsonArray.push([obj.website, obj.title, obj.url, obj.percent]);
-				jsonArray.push([obj.website, obj.title, obj.url, obj.percent]);
+				jsonArray.push([obj.website, obj.title, obj.author, obj.url, obj.percent]);
+				jsonArray.push([obj.website, obj.title, obj.author, obj.url, obj.percent]);
+				jsonArray.push([obj.website, obj.title, obj.author, obj.url, obj.percent]);
 
         //Create a HTML Table element.
         var table = document.createElement("TABLE");

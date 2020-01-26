@@ -12,20 +12,26 @@ table.table1 {
 	background-color:#669ced;
 	margin:0;
 	padding: 20px;
-	width:100%;
+	width:50%;
+	border:0px;
 }
 
 table.table1 td {
 	text-align:left;
-	float:left;
-	
+	float:bottom;
+}
+
+div.myHeader {
+	width:100%;
+	background-color:#669ced;
 }
 
 a {
 	text-decoration:none;
 	font-family: Trebuchet MS, sans-serif;
 	font-size:20px;
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	color:#1c0080;
 }
 
@@ -68,7 +74,7 @@ table {
 	border-color: #1c0080;	
 	color: #1c0080;
 	font-family: Trebuchet MS, sans-serif;	
-	margin-left:30px;
+	margin-left:40px;
 	margin-top:10px;
 	margin-bottom:10px;
 }
@@ -76,6 +82,11 @@ table {
 th {
 	border-bottom:1px solid;
 	border-color: #1c0080;
+	font-size:20px;
+}
+
+td {
+	font-size:15px;
 }
 
 tr {
@@ -94,6 +105,7 @@ input[type=text] {
 	float:center;
 	margin-left:12.5%;
 	border-radius: 5px;
+	margin-top:10px;
 }
 
 input[type=submit] {
