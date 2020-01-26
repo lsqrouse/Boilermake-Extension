@@ -16,15 +16,33 @@
       	</table>
   		</div>
   	<div class="main">
-  		<p>
-  			<form action="url request place">
-  				<br>
-  				<input type="text" id="inText" placeholder="Enter an article's URL..."><br>
-  				<input type="submit" value="Check">
-  			</form>
-  		 	<br>
-  		 	<br>
-  		</p>
-  	</div>
+  		<div id="form">
+  				<input type="text" id="urlText" placeholder="Enter an article's URL..."><br>
+  				<button class="btn", id="button"> Check </button>
+  		</div>
+	  	<div class="center"> <h2 id="percentage" class="percentage"> </h2> </div>
+	  	<div id="percent" class="percent">
+	    </div>
+	  	<table id="table" class="table3">
+	    			<tr>
+	    					<th> Title </th>
+	    					<td id="title"> </td>
+	    					<th> General Credibilties </th>
+	    				</tr>
+	    				<tr>
+	    					<th>Author</th>
+	    					<td id="author"> </td>
+	    					<td id="authorCred"> </td>
+	    				</tr>
+	    				<tr>
+	    					<th> Website </th>
+	    					<td id="site"> </td>
+	    					<td id="siteCred"> </td>
+	    				</tr>
+	    				<tr> 
+	    			</table>
+	    			<p id="urlDisplay"> </p>
+	    </div>
+	    				  	<script type="text/javascript" src="handleInput.js"></script>
     </body>
 </html>

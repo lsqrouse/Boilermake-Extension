@@ -1,7 +1,7 @@
  {
-    "name": "Getting Started Example",
+    "name": "LavaLamp Truth Detector",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Detect Fake News and Videos",
     "permissions": ["declarativeContent", "activeTab", "storage", "tabs"],
     "options_page": "options.html",
     "background": {

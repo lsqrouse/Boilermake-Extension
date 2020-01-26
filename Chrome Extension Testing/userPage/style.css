@@ -123,3 +123,48 @@ h2.soon {
 	float:center;
 	text-align:center;
 }
+
+button {
+	background-color:#669ced;
+	color: #1c0080;
+	padding-bottom:30px;
+	padding-top: 10px;
+	display: inline-block;
+	font-size: 20px;
+    height:20px; 
+    width:100px; 
+    margin: 10px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+table.table3 {
+	visibility:hidden;
+	width: 100%;
+	border-collapse: collapse;
+	visibility: hidden;
+	margin: 5px;
+
+}
+
+table.table3 th, td {
+	text-align: left;
+	border-right: 1px solid #1c0080;;	
+}
+
+h2.percentage {
+	font-size: 50px;
+	text-align: center;
+	float:center;
+}
+
+div.percent {
+	float:center;
+	text-align: center;
+}
+
+div.center {
+	text-align:center;
+	float:center;
+}
