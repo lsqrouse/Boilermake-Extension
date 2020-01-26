@@ -17,13 +17,14 @@ table.table1 {
 
 table.table1 td {
 	text-align:left;
+	float:left;
 	
 }
 
 a {
 	text-decoration:none;
 	font-family: Trebuchet MS, sans-serif;
-	font-size:30px;
+	font-size:20px;
 	margin: 20px;
 	color:#1c0080;
 }
@@ -47,6 +48,7 @@ div.main {
 	border-radius: 5px;
 	margin: 10px;
 	padding: 5px;
+	float:center;
 }
 
 h2 {
@@ -82,7 +84,7 @@ tr {
 	border-color: #1c0080;
 }
 
-input {
+input[type=text] {
 	width: 75%;
 	padding: 10px;
 	box-sizing: border-box;
@@ -90,4 +92,17 @@ input {
 	border-color: #1c0080;
 	font-size: 20px;
 	float:center;
+	margin-left:12.5%;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	width: 33%;
+	float:center;
+	color:white;
+	background-color:#669ced;
+	margin-left:33%;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 4px;
 }
