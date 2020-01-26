@@ -58,3 +58,36 @@ h2 {
 	color: #1c0080;
 	font-size: 20px;
 }
+
+table {
+	width: 50%;
+	text-align: left;
+	border: 1px solid;
+	border-color: #1c0080;	
+	color: #1c0080;
+	font-family: Trebuchet MS, sans-serif;	
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ 	
+th {
+	border-bottom:1px solid;
+	border-color: #1c0080;
+}
+
+tr {
+	border: solid;
+	border-width: 1px 0;
+	border-color: #1c0080;
+}
+
+input {
+	width: 75%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 2px solid;
+	border-color: #1c0080;
+	font-size: 20px;
+	float:center;
+}
