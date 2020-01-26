@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+table.table1 {
+	background-color:#669ced;
+	margin:0;
+	padding: 20px;
+	width:100%;
+}
+
+table.table1 td {
+	text-align:left;
+	float:left;
+	
+}
+
+a {
+	text-decoration:none;
+	font-family: Trebuchet MS, sans-serif;
+	font-size:20px;
+	margin: 20px;
+	color:#1c0080;
+}
+
+
+h1 {
+	font-family: Trebuchet MS, sans-serif;	
+	text-align:left;
+	padding: 2px;
+	display: inline;
+	margin: 40px;
+	color: #1c0080;
+}
+
+body {
+	background-color: lightgray;
+}
+
+div.main {
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	float:center;
+}
+
+h2 {
+	font-family: Trebuchet MS, sans-serif;	
+	text-align:left;
+	padding: 2px;
+	display: inline;
+	margin: 40px;
+	color: #1c0080;
+	font-size: 20px;
+}
+
+table {
+	width: 50%;
+	text-align: left;
+	border: 1px solid;
+	border-color: #1c0080;	
+	color: #1c0080;
+	font-family: Trebuchet MS, sans-serif;	
+	margin-left:30px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ 	
+th {
+	border-bottom:1px solid;
+	border-color: #1c0080;
+}
+
+tr {
+	border: solid;
+	border-width: 1px 0;
+	border-color: #1c0080;
+}
+
+input[type=text] {
+	width: 75%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 2px solid;
+	border-color: #1c0080;
+	font-size: 20px;
+	float:center;
+	margin-left:12.5%;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	width: 33%;
+	float:center;
+	color:white;
+	background-color:#669ced;
+	margin-left:33%;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 4px;
+}
