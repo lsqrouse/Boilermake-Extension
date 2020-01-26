@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+			<div class="myHeader">
+			<table class="table1">
+      		<tr>
+      			<td><h1 style='border:4px black solid; border-radius:3px; border-color:#1c0080; font-size: 30px;'> LavaLamp </h1></td>
+      			<td><a href="getInput.html"> Input Text/URL </a></td>
+      			<td><a href="index.html"> User Profile </a></td>
+      			<td><a href="ourData.html"> Our Data </a></td>
+      			<td><a href="deepfake.html"> Deepfake Detector </a></td>
+      		</tr>
+      	</table>
+  		</div>
+  	<div class="main">
+  		<div id="form">
+  				<input type="text" id="urlText" placeholder="Enter an article's URL..."><br>
+  				<button class="btn", id="button"> Check </button>
+  		</div>
+	  	<div class="center"> <h2 id="percentage" class="percentage"> </h2> </div>
+	  	<div id="percent" class="percent">
+	    </div>
+	  	<table id="table" class="table3">
+	    			<tr>
+	    					<th> Title </th>
+	    					<td id="title"> </td>
+	    					<th> General Credibilties </th>
+	    				</tr>
+	    				<tr>
+	    					<th>Author</th>
+	    					<td id="author"> </td>
+	    					<td id="authorCred"> </td>
+	    				</tr>
+	    				<tr>
+	    					<th> Website </th>
+	    					<td id="site"> </td>
+	    					<td id="siteCred"> </td>
+	    				</tr>
+	    				<tr> 
+	    			</table>
+	    			<p id="urlDisplay"> </p>
+	    </div>
+	    				  	<script type="text/javascript" src="handleInput.js"></script>
+    </body>
+</html>

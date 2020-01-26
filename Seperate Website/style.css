@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+table.table1 {
+	background-color:#669ced;
+	margin:0;
+	padding: 20px;
+	width:65%;
+	border:0px;
+}
+
+table.table1 td {
+	text-align:left;
+	float:bottom;
+}
+
+div.myHeader {
+	width:100%;
+	background-color:#669ced;
+}
+
+a {
+	text-decoration:none;
+	font-family: Trebuchet MS, sans-serif;
+	font-size:20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color:#1c0080;
+}
+
+
+h1 {
+	font-family: Trebuchet MS, sans-serif;	
+	text-align:left;
+	padding: 2px;
+	display: inline;
+	margin: 40px;
+	color: #1c0080;
+}
+
+body {
+	background-color: lightgray;
+}
+
+div.main {
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	float:center;
+}
+
+h2 {
+	font-family: Trebuchet MS, sans-serif;	
+	text-align:left;
+	padding: 2px;
+	display: inline;
+	margin: 40px;
+	color: #1c0080;
+	font-size: 20px;
+}
+
+table {
+	width: 50%;
+	text-align: left;
+	border: 1px solid;
+	border-color: #1c0080;	
+	color: #1c0080;
+	font-family: Trebuchet MS, sans-serif;	
+	margin-left:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ 	
+th {
+	border-bottom:1px solid;
+	border-color: #1c0080;
+	font-size:20px;
+}
+
+td {
+	font-size:15px;
+}
+
+tr {
+	border: solid;
+	border-width: 1px 0;
+	border-color: #1c0080;
+}
+
+input[type=text] {
+	width: 75%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 2px solid;
+	border-color: #1c0080;
+	font-size: 20px;
+	float:center;
+	margin-left:12.5%;
+	border-radius: 5px;
+	margin-top:10px;
+}
+
+input[type=submit] {
+	width: 33%;
+	float:center;
+	color:white;
+	background-color:#669ced;
+	margin-left:33%;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+h2.soon {
+	float:center;
+	text-align:center;
+}
+
+button {
+	background-color:#669ced;
+	color: #1c0080;
+	padding-bottom:30px;
+	padding-top: 10px;
+	display: inline-block;
+	font-size: 20px;
+    height:20px; 
+    width:100px; 
+    margin: 10px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+table.table3 {
+	visibility:hidden;
+	width: 100%;
+	border-collapse: collapse;
+	visibility: hidden;
+	margin: 5px;
+
+}
+
+table.table3 th, td {
+	text-align: left;
+	border-right: 1px solid #1c0080;;	
+}
+
+h2.percentage {
+	font-size: 50px;
+	text-align: center;
+	float:center;
+}
+
+div.percent {
+	float:center;
+	text-align: center;
+}
+
+div.center {
+	text-align:center;
+	float:center;
+}
